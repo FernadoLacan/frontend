@@ -1,0 +1,32 @@
+.test-card{
+  border: solid 2px #000;
+  border-radius: 8px;
+  padding: 8px;
+  width: 250px;
+}
+
+.test-card > label{
+  font-weight: 700;
+}
+
+.test-card > p {
+  font-size: 12px;
+}
+
+.test-card .date-range{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+/*
+.test-card .date-range small:first-child{
+  color: orangered;
+  font-weight: 700;
+}
+*/
+
+.test-card p > span {
+  font-weight: 700;
+}

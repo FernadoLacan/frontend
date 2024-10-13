@@ -1,0 +1,23 @@
+.resume-project{
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 8px;
+  border-radius: 8px;
+  border: solid 1px #F2F2F2;
+}
+.resume-project .resume-subcontainer{
+  display: flex;
+}
+.resume-project h3{
+  margin: 0;
+}
+.resume-project .progress-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-project .actions{
+  display: flex;
+  justify-content: flex-end;
+}

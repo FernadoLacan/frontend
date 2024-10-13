@@ -1,0 +1,45 @@
+.resume-developer{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 8px;
+  border: solid 1px #F2F2F2;
+}
+.resume-developer label{
+  font-weight: 700;
+}
+.resume-table-container{
+  display: flex;
+  gap: 8px;
+}
+.developer-table{
+  border-radius: 8px;
+  
+  padding: 8px;
+}
+.developer-table.shadow-test{
+  box-shadow:  3px 3px rgba(255,236,48,0.3);
+}
+.developer-table.shadow-issue{
+  box-shadow:  3px 3px rgba(255,98,48,0.3);
+}
+
+.developer-table > thead > tr > th{
+  text-align: left;  
+  font-size: 15px;
+}
+.developer-table > tbody > tr > td{
+  font-size: 12px;
+}
+.developer-table > thead > tr > th > span{
+  border-radius: 12px;  
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background: #FDF6B2;
+  color: #000;
+}

@@ -1,0 +1,24 @@
+h4{
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.dashboard-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dashboard-container > h3{
+  text-align: center;
+}
+.resume-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.project-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}

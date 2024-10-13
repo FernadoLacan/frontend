@@ -1,0 +1,76 @@
+.right-sidebar{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: -250px;  
+  color: white;
+  padding: 10px;
+  transition: right 0.3s ease;
+  border: solid 1px #000;
+}
+
+.right-sidebar-open{
+  right: 0;
+}
+
+.times-button{
+  color: #000;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.right-sidebar .header{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.right-sidebar .issue{
+  display: flex;  
+  flex-direction: column;
+}
+
+.right-sidebar .issue label{
+  font-weight: 700;
+}
+.right-sidebar .issue p{
+  margin-top: 0;
+  color: #000;
+}
+.right-sidebar .issue .state-pending{
+  background: #ECECEC;
+  border-radius: 8px;
+  padding: 4px 8px;
+  color: #000;
+  text-align: center;
+}
+.right-sidebar .issue .state-working{
+  background: #7FCDFF;
+  border-radius: 8px;
+  padding: 4px;
+  color: #000;  
+  text-align: center;
+}
+.right-sidebar .issue .state-finished{
+  background: #24AB24;
+  border-radius: 8px;
+  padding: 4px;
+  color: #fff;  
+  text-align: center;
+}
+
+.right-sidebar .start-working{
+  margin-top: 15px;
+  font-size: 15px;
+  background: #7FCDFF;
+  color: #000;
+}
+
+.right-sidebar .fixed-issue{
+  margin-top: 15px;
+  font-size: 15px;
+  background: #24AB24;
+  color: #fff;
+  text-align: center;
+}
